@@ -1,0 +1,257 @@
+body{
+    background: rgb(11, 19, 27);
+    font-family: 'Song Myung', serif;
+
+}
+.menu{
+    font-size: 25px;
+    color: rgb(11, 19, 27);
+    background: rgb(53, 53, 53);
+    height: 50px;
+    border: 1px solid rgb(153, 117, 51);
+}
+
+.menu li{
+    display: inline-block;
+    background: rgb(87, 87, 87);
+    border: 1px solid white;
+    list-style-type: square;
+    width: 200px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid rgb(153, 117, 51);
+}
+
+li a{
+    text-decoration: none;
+    text-align: center;
+    margin: 0px;
+    color: rgb(139, 139, 139);
+}
+
+li a:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+
+.subjects{
+    background: rgb(11, 19, 27);
+    font-size: 25px;
+    color: rgb(151, 151, 151);
+    margin-left: 57%;
+}
+
+.subjects li{
+    background: rgb(53, 53, 53);
+    border: 1px solid rgb(153, 117, 51);
+    list-style-type: square;
+    width: 200px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.menu li:hover{
+    background: rgb(150, 150, 150);
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+
+.subjects li:hover{
+    background: rgb(139, 139, 139);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(151, 151, 151);
+    font-style: italic;
+    transform: scale(1.05);
+    transform: rotate(3deg);
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    Background: rgb(11, 19, 27);
+    color: rgb(146, 197, 209);
+    height: 50px;
+    margin-bottom: 0px;
+    padding: 40px;
+}
+
+h2{
+    text-align: center;
+    font-size: 48px;
+    background: rgb(11, 19, 27);
+    color: rgb(255, 255, 255);
+    height: 30px;
+    padding: 15px;
+    width: 250px;
+    margin-left: 57%;
+}
+
+.text{
+    background: cadetblue;
+    border: 2px solid rgb(26, 89, 94);
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: 25%;
+    width: 50%;
+
+}
+
+.footer{
+    background: black;
+    color: white;
+    font-size: 14px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    margin-left: 0;
+}
+
+.square{
+    float: left;
+    border: solid 6px rgb(26, 89, 94);
+    border-radius: 8px;
+}
+
+#logo{
+    width: 300px;
+}
+
+h3{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    background: rgb(53, 53, 53);
+    border: 1px solid rgb(153, 117, 51);
+}
+
+#bonfire{
+    float: left;
+    margin-left: 350px;
+}
+
+.paraimg{
+    width:600px;
+    color: white;
+    background: rgb(53, 53, 53);
+    border: 1px solid  rgb(153, 117, 51);
+    padding: 10px;
+    margin-left: 175px;
+    margin-right: 275px;
+}
+
+.paraimg2{
+    color: white;
+    background: rgb(53, 53, 53);
+    border: 1px solid  rgb(153, 117, 51);
+    padding: 10px;
+    margin-left: 620px;
+    margin-right: 175px;
+}
+
+.paraimg3{
+    color: white;
+    background: rgb(53, 53, 53);
+    border: 1px solid  rgb(153, 117, 51);
+    padding: 10px;
+    margin-left: 790px;
+    margin-right: 175px;
+}
+
+#banner{
+    float: right;
+    margin-right: 250px;
+}
+
+#gameplay{
+    float:right;
+    margin-right: 10%;
+    width: 400px;
+}
+
+#gameplay3{
+    float:right;
+    margin-right: 250px;
+    width: 300px;
+}
+h4{
+    font-size: 30px;
+    color: White;
+    text-align: right;
+    margin-right: 30%;
+}
+
+#ds{
+    width: 280px;
+    float:left;
+    margin-left: 10%;
+}
+
+#ds2{
+    width: 280px;
+    float: left;
+    margin-left: 10%;
+}
+
+#ds3{
+    width: 280px;
+    float: left;
+    margin-left: 10%;
+}
+
+.characterlist{
+    background: rgb(11, 19, 27);
+    font-size: 25px;
+    color: rgb(151, 151, 151);
+    margin-left: 35%;
+}
+
+.characterlist li{
+    background: rgb(53, 53, 53);
+    border: 1px solid rgb(153, 117, 51);
+    list-style-type: square;
+    width: 200px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.characterlist li:hover{
+    background: rgb(139, 139, 139);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(151, 151, 151);
+    font-style: italic;
+    transform: scale(1.05);
+    transform: rotate(3deg);
+}
+#solair{
+    float: left;
+    width: 600px;
+    margin-left: 5%;
+}
+
+#lucatiel{
+    float: left;
+    width: 600px;
+    margin-left: 5%;
+}
+
+#patches{
+    float: left;
+    width: 300px;
+    margin-left: 15%;
+}
+#siegward{
+    float: left;
+    width: 500px;
+    margin-left: 8%;
+}
+
+.weapon{
+    float: right;
+    margin-right: 60%;
+    width:90px;
+
+}
+<img alt="Image result for 32 pixel art gif&quot;" class="n3VNCb" src="https://cdn2.scratch.mit.edu/get_image/user/2379494_90x90.png" data-noaft="1" jsname="HiaYvf" jsaction="load:XAeZkd;" style="width: 200px; height: 200px; margin: 0px;">
