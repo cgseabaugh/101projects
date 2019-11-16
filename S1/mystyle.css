@@ -1,0 +1,65 @@
+body{
+    font-family: 'Cinzel', serif;
+}
+
+header{
+    background-image: url(img/headerstars.png);
+    height: 40vh;
+    background-position: center top;
+    background-size: cover;
+    color: rgb(216, 203, 86);
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.300);
+}
+
+main{
+    height: 100vh;
+    padding-top: 10px;
+    background: black;
+}
+
+footer{
+    height: 10vh;
+    background: rgb(216, 203, 86);
+}
+
+.cosmos{
+    border: 1px solid  rgb(216, 203, 86);
+    border-radius: 5px;
+    padding: 5px;
+    width: 500px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+
+figure{
+    width: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+.container{
+    position: relative;
+}
+
+.center{
+    position: absolute;
+    top:28%;
+    left:47%;
+    transform: translate(-50%, -50%);
+    font-size:25px;
+    color: yellow;
+}
+
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
